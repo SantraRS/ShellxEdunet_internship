@@ -29,7 +29,7 @@ This project analyzes country-specific indicators and applies machine learning t
 ---
 
 ## 📂 **Project Structure**
-
+'''
 project_root/
 ├── data/
 │ └── climate_change_download_0.xls # Original dataset from World Bank
@@ -43,7 +43,7 @@ project_root/
 │ └── carbon_emission_model.pkl # Saved Random Forest model (download below)
 ├── README.md
 
-
+'''
 ---
 
 ## 🔬 **Methodology**
