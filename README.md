@@ -29,22 +29,22 @@ This project analyzes country-specific indicators and applies machine learning t
 ---
 
 ## 📂 **Project Structure**
-'''
+
+\```
 project_root/
 ├── data/
-│ └── climate_change_download_0.xls # Original dataset from World Bank
+│   └── climate_change_download_0.xls      # Original dataset from World Bank
 ├── cleaned/
-│ └── data_cleaned.csv # Final cleaned dataset after preparation
+│   └── data_cleaned.csv                   # Final cleaned dataset after preparation
 ├── notebooks/
-│ ├── 1_data_preparation.ipynb # Data loading and cleaning
-│ ├── 2_data_exploration.ipynb # Data exploration and analysis
-│ └── 3_model_building.ipynb # Model training and evaluation
+│   ├── 1_data_preparation.ipynb           # Data loading and cleaning
+│   ├── 2_data_exploration.ipynb           # Data exploration and analysis
+│   └── 3_model_building.ipynb             # Model training and evaluation
 ├── model/
-│ └── carbon_emission_model.pkl # Saved Random Forest model (download below)
+│   └── carbon_emission_model.pkl          # Saved Random Forest model (download below)
 ├── README.md
+\```
 
-'''
----
 
 ## 🔬 **Methodology**
 
